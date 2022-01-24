@@ -3,18 +3,25 @@ $(document).ready(function() {
     $("#js-showing").toggle();
     $("#js-hidden").toggle();
   });
-});
 
-$(document).ready(function() {
   $(".clickable2").click(function() {
     $("#operators-showing").toggle();
     $("#operators-hidden").toggle();
   });
-});
 
-$(document).ready(function() {
   $(".clickable3").click(function() {
     $("#variables-showing").toggle();
     $("#variables-hidden").toggle();
   });
+
+  $(".clickable4").click(function() {
+    $("#functions-showing").toggle();
+    $("#functions-hidden").toggle();
+  });
+
+  $(".clickable5").click(function() {
+    $("#method-showing").toggle();
+    $("#method-hidden").toggle();
+  });
+
 });

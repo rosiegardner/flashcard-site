@@ -35,3 +35,30 @@
 
 .clickable3:hover {
   text-decoration: underline;
+}
+
+#functions-showing {
+  display: none;
+} 
+
+.clickable4 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable4:hover {
+  text-decoration: underline;
+}
+
+#method-showing {
+  display: none;
+}
+
+.clickable5 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable5:hover {
+  text-decoration: underline;
+}
